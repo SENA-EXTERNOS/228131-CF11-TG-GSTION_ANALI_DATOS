@@ -3,15 +3,24 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    .titulo-sexto.color-acento-botones(data-aos='fade-right')
+      h5 Inteligencia artificial
+      br
+      span Síntesis: inteligencia artificial en los datos
+
+    p En el siguiente mapa conceptual se visibilizan los conceptos y su relación entre las diferentes temáticas desarrolladas en este proceso de aprendizaje.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Inteligencia artificial").mb-4
+          figcaption
+            p.mb-0 Nota: 
+              em Adaptado de: Inteligencia artificial. 
+              | s/f (2014-2015). 
+              a(href="https://cmapscloud.ihmc.us:443/rid=1YF7CSVJ3-197CHJ7-LVPZ3V" target="_blank") https://cmapscloud.ihmc.us:443/rid=1YF7CSVJ3-197CHJ7-LVPZ3V
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
