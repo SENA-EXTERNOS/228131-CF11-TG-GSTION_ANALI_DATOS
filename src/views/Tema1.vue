@@ -53,7 +53,7 @@
       span: em Diferencia entre conceptos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md.col-sm-10.col-xs-12(data-aos="fade-right")
+      .col-md-3.col-sm-10.col-xs-12(data-aos="fade-right")
         .tarjeta.p-4(style="background-color: #FFE595")
           .row.justify-content-center.mb-3
             .col-7
@@ -61,9 +61,9 @@
                 img(src='@/assets/curso/temas/t1/f7.svg', alt='Imagen relacionada')
           h3.text-center IA
           p.text-small.text-center Cualquier técnica que permita a las computadoras imitar inteligencia humana (lógica, declaraciones, decisiones, aprendizaje, entre otros)
-      .col-md-auto.col-sm-3.col-xs-4(data-aos="zoom-in")
+      .col-md-1.col-sm-3.col-xs-4(data-aos="zoom-in")
         img.sm90deg.my-3(src='@/assets/curso/temas/t1/f10.svg', alt='flechita', style="width:70px")
-      .col-md.col-sm-10.col-xs-12(data-aos="fade-down")
+      .col-md-3.col-sm-10.col-xs-12(data-aos="fade-down")
         .tarjeta.p-4(style="background-color: #FFE595")
           .row.justify-content-center.mb-3
             .col-7
@@ -71,9 +71,9 @@
                 img(src='@/assets/curso/temas/t1/f8.svg', alt='Imagen relacionada')
           h3.text-center ML
           p.text-small.text-center Parte de la IA que se orienta a encontrar patrones en los datos para construir modelos automáticamente
-      .col-md-auto.col-sm-3.col-xs-4(data-aos="zoom-in")
+      .col-md-1.col-sm-3.col-xs-4(data-aos="zoom-in")
         img.sm90deg.my-3(src='@/assets/curso/temas/t1/f10.svg', alt='flechita', style="width:70px")
-      .col-md.col-sm-10.col-xs-12(data-aos="fade-left")
+      .col-md-3.col-sm-10.col-xs-12(data-aos="fade-left")
         .tarjeta.p-4(style="background-color: #FFE595")
           .row.justify-content-center.mb-3
             .col-7

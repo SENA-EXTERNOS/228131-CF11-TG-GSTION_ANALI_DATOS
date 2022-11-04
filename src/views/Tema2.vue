@@ -105,7 +105,7 @@
 
     p El tipo de aprendizaje está dado según el principio del algoritmo -sin afirmar que otro tipo de aprendizaje no sea usado- y es el más implementado en la gestión de datos y otras aplicaciones; asimismo, ampliar la implementación de la inteligencia artificial en las organizaciones y la vida cotidiana.
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.fcp15.p-4.mb-5
       SlyderA(tipo='b')
         .row.align-items-center
           .col-md-4.mb-4.mb-md-0
@@ -174,7 +174,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Aprendizaje no supervisado 
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-primario.invert.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
           .bloque-texto-a__texto.p-4
@@ -215,11 +215,11 @@
     .col-md-10.mx-auto.row.justify-content-center.mb-4
       .col-md-7
         img(src='@/assets/curso/temas/t2/f20.svg', alt='')
-      .col-md-5.p-4(style="background-color: rgba(254,202,46,.7)")
+      .col-md-5.p-4.fcab7
         p.mb-0 Para una máquina tener sentido común es un objetivo muy difícil, sin embargo, los algoritmos actuales se van acercando un poco, por ejemplo, hay palabras que si bien es la misma para dos cosas o significados diferentes (palabras polisémicas), para los humanos es fácil según el contexto, pero para una máquina es difícil definir estas cosas. 
 
     .col-md-10.mx-auto.row.justify-content-center.mb-5
-      .col-md-5.p-4(style="background-color: rgba(254,202,46,.7)")
+      .col-md-5.p-4.fcab7
         p.mb-0 En el proceso de la formación, al no ser científicos computacionales, no hace falta entender de manera detallada y matemática cómo se produce este aprendizaje, lo pertinente es entender cómo los sistemas de IA interactúan con la información de entrada y la información de salida; esta manera de entender un sistema se conoce como caja negra, o sea, el agente inteligente es una caja de la cual no interesa saber qué es lo que ocurre dentro de ella, sino qué hace con el entorno, es decir, entender bien qué hace más que el cómo lo hace.
       .col-md-7
         img(src='@/assets/curso/temas/t2/f21.svg', alt='')
@@ -241,7 +241,7 @@
       h2 2.3 Algunos recursos disponibles para el uso de ML
 
     .col-md-10.mx-auto.mb-5
-      .bloque-texto-a.color-primario.p-4.p-md-5.mb-5
+      .bloque-texto-a.color-primario.invert.p-4.p-md-5.mb-5
         .row.m-0.align-items-center.justify-content-between
           .col-lg-8
             .bloque-texto-a__texto.p-4

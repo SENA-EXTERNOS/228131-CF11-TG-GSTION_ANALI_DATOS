@@ -39,3 +39,31 @@
 
   100%
     transform: rotate(360deg)
+
+// Colores
+
+.fcp15
+  background-color: rgba(189,220,246,.15)
+.fcab7, .col
+  background-color: rgba(254,202,46,.07) !important
+
+//otros
+
+@media screen and ( max-width: 767px )
+  .sm90deg
+    transform: rotate(90deg)
+
+.acordion
+  .ca-ab
+    background-color: $color-primario
+    &.acordion__activo
+      background-color: #FFF7DE
+  &__accion__btn--a
+    background-color: $color-acento-botones
+  
+.bloque-texto-a.color-primario
+  background-color: rgba(232,232,232,.95)
+  &.invert::before
+    background-color: #BDDCF6
+    left: 0%
+    right: 50%

@@ -14,7 +14,7 @@
       .col-md-10
         p Adivinar el futuro ha sido uno de los factores más fascinantes que, a lo largo de toda la historia humana, las civilizaciones y líderes se han ocupado de ello hasta el punto de desarrollar ansiedades por tal incertidumbre.
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.fcp15.p-4.mb-5
       SlyderA(tipo='b')
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
