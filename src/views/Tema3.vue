@@ -36,7 +36,7 @@
               img(src='@/assets/curso/temas/t3/f4.svg', alt='imagen relacionada')
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p: b Predictores como funciones de herramientas
+            p: b: em Predictores como funciones de herramientas
             p Un ejemplo de predictores usados por todos, ha sido la función autocompletar de Google en sus búsquedas y los teclados de celular, donde al escribir una palabra o parte el sistema procura autocompletar lo que se desea escribir ahorrando tiempo y disminuyendo errores de digitación de manera ostensible. Esto se hace a partir de unas métricas y del aprendizaje que la máquina detectó por las tendencias propias del usuario o tendencias de búsqueda masiva localizada o mundial.
 
           .col-md-6
@@ -56,7 +56,7 @@
               img(src='@/assets/curso/temas/t3/f7.svg', alt='imagen relacionada')
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p: b Análisis predictivo
+            p: b: em Análisis predictivo
             p El objetivo de este análisis es la estimación de eventos futuros a partir de datos históricos, o incluso descubrir fenómenos presentes que podrían desencadenar situaciones más adelante como, por ejemplo, la No satisfacción de clientes. Este es uno de los casos de usos más empleados en los servicios de machine learning actualmente.
 
           .col-md-6
@@ -72,7 +72,7 @@
 
     .col-md-8.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 9.
+        h5 Figura 10.
         br 
         span: em Caso de uso predictivo de ventas
       figure

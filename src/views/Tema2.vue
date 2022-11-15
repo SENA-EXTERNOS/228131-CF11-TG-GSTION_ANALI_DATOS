@@ -29,7 +29,7 @@
             | (BI) es una manera interesante para el conocimiento de las organizaciones y otros beneficios, la implementación de ML es ir más allá, pues se orienta a mejorar predicciones cada vez más precisas, obtener información más profunda de los datos, reducir sobrecarga de tareas y mejorar las experiencias de clientes, por ejemplo, a través de 
             em Chatbots 
             | que vayan aprendiendo de un humano a cómo responder según las situaciones.
-          p.mb-0 Más adelante, se retoman algunas herramientas disponibles para las empresas de una manera fácil y al alcance
+          p.mb-0 Más adelante, se retoman algunas herramientas disponibles para las empresas de una manera fácil y al alcance.
       .col-md-4(style="overflow:visible; background-color: #daf0f3;")
         img(src='@/assets/curso/temas/t2/f2.svg', alt='robot',style="height:100%")
 
@@ -84,6 +84,8 @@
     .row.justify-content-center.mb-5
       .col-md-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta ca-ab")
+          div(titulo="Número de ejemplos relevantes que el software puede analizar")
+            p.mb-0 Cuantos más ejemplos, más precisión se tendrá en el análisis de datos.
           div(titulo="Cantidad de características que detallan los ejemplos")
             p.mb-0 Cuanto más sencillos y precisos, más rápido y acertado será el análisis (tamaño, peso, cantidad, velocidad, rangos, etc.).
           div(titulo="Calidad de los datos")
@@ -304,6 +306,10 @@
             figure
               img(src='@/assets/curso/temas/t2/f35.png', alt='')
 
+    .col-md-10.mx-auto.mb-5
+      .cajon.color-acento-contenido.p-4.mb-4
+        p.mb-0 Actualmente, aunque el hecho de que programar algo tan complejo como la mente humana pueda parecer descabellado, se atestigua un progreso tremendo en el uso del aprendizaje automático. A continuación, se encuentran una serie de herramientas que pueden ser útiles cuando se trabaje con estos servicios.
+
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
@@ -316,6 +322,7 @@
           | .
         p Para la gestión de datos existen múltiples opciones para implementar IBM como ecosistema digital corporativo ofreciendo tecnología y herramientas para la computación en la nube, prácticamente todos los motores de bases de datos comerciales, herramientas para ETL, gestión de datos maestros y calidad de los datos.
       div(x="30%" y="100%" numero="2")
+        h4: em IA y Machine Learning con Watson Knowledge Catalog
         p Para el caso específico de 
           em machine learning 
           | (ML), es interesante explorar la herramienta “IA y 
@@ -344,13 +351,22 @@
       div(x="90%" y="0%" numero="5")
         p Microsoft ofrece herramientas amigables para entrenar e implementar modelos de ML con cuentas Azure.
         p Como el resto de los servicios, está basado en servicios cloud, ofrece servicios No code, en un entorno visual gráfico, con ambientes sencillos y fáciles de entender basado en flujo de datos, procesos, disparadores, entrenamiento de máquina, conexión de datos, etc. Es una herramienta recomendada para quienes desean empezar a explorar y aprender todo el mundo de ML (Microsoft, 2022).
-        p Nota. Ambiente de trabajo Microsoft Azure. Tomado de Microsoft (2022)
+        p 
+
+        .col-md-8.mx-auto.mb-5
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 7.
+            br
+            span: em Ambiente de trabajo Microsoft Azure ML
+          figure
+            img(src='@/assets/curso/temas/t2/figura7.png', alt='')
+            figcaption(style="color:#12253f !important") Nota. Ambiente de trabajo Microsoft Azure. Tomado de Microsoft (2022).
 
     h3 Algunas aplicaciones de ML 
 
     .col-md-8.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 7.
+        h5 Figura 8.
         br
         span: em Caso de usos herramienta ML de Amazon
       figure
@@ -361,7 +377,7 @@
 
     .col-md-8.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 8.
+        h5 Figura 9.
         br
         span: em Infografía evolución de la gestión de datos
       figure
