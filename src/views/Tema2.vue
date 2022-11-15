@@ -208,9 +208,9 @@
         h5 Figura 6.
         br
         span: em Ejemplo de un resultado de aprendizaje no supervisado
-        figure
-          img(src='@/assets/curso/temas/t2/f19.png', alt='')
-          figcaption Nota: Ejemplo de aprendizaje no supervisado. Tomado de Dot CSV (2019)
+      figure
+        img(src='@/assets/curso/temas/t2/f19.png', alt='')
+        figcaption Nota: Ejemplo de aprendizaje no supervisado. Tomado de Dot CSV (2019)
 
     p Si bien, las técnicas ML más usadas están basadas en referencias de salidas, el aprendizaje no supervisado es el futuro; de cierta manera, los sistemas usarán estas referencias y gran capacidad computacional para empezar a asociar.
 
