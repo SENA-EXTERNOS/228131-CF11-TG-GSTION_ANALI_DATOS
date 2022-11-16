@@ -20,7 +20,7 @@
               | s/f (2014-2015). 
               a(href="https://cmapscloud.ihmc.us:443/rid=1YF7CSVJ3-197CHJ7-LVPZ3V" target="_blank") https://cmapscloud.ihmc.us:443/rid=1YF7CSVJ3-197CHJ7-LVPZ3V
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
