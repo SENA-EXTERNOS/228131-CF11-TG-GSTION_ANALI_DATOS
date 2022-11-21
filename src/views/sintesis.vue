@@ -3,11 +3,6 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.color-acento-botones(data-aos='fade-right')
-      h5 Inteligencia artificial
-      br
-      span Síntesis: inteligencia artificial en los datos
-
     p En el siguiente mapa conceptual se visibilizan los conceptos y su relación entre las diferentes temáticas desarrolladas en este proceso de aprendizaje.
 
     .row.justify-content-center
